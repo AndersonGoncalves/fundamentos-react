@@ -1,6 +1,7 @@
 import PrimeiroSemJSX, { SegundoComJSX, TerceiroComJSX } from './components/basicos/Primeiro';
 import ComParametro from './components/basicos/ComParametro';
 import { FragmentoComplexo, FragmentoSimples } from './components/basicos/Fragmento';
+import Aleatorio from './components/basicos/Aleatorio';
 
 export default (_) =>
     <div id="app">
@@ -26,5 +27,6 @@ export default (_) =>
             nota={10.0} />
         <FragmentoSimples tipo="SIMPLES" />
         <FragmentoComplexo tipo="COMPLEXO" />
+        <Aleatorio min={1} max={18} />
     </div>
 
