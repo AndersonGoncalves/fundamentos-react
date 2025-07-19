@@ -10,13 +10,13 @@ export default (_) =>
         <h1>Fundamentos React</h1>
 
         <div className="Cards">
-            <Card titulo="Card Primeiro componente">
+            <Card titulo="Card Primeiro componente" color="#080">
                 <PrimeiroSemJSX />
                 <SegundoComJSX />
                 <TerceiroComJSX />
             </Card>
 
-            <Card titulo="Card Com Parâmetro">
+            <Card titulo="Card Com Parâmetro" color="#E94C6F">
                 <ComParametro
                     titulo="Primeiro componente"
                     aluno="Anderson Gonçalves"
@@ -35,15 +35,15 @@ export default (_) =>
                     nota={10.0} />
             </Card>
 
-            <Card titulo="Card de Fragmento Complexo">
+            <Card titulo="Card de Fragmento Complexo" color="#FF8C00">
                 <FragmentoComplexo tipo="COMPLEXO" />
             </Card>
 
-            <Card titulo="Card de Fragmento Simples">
+            <Card titulo="Card de Fragmento Simples" color="#E8B71A">
                 <FragmentoSimples tipo="SIMPLES" />
             </Card>
 
-            <Card titulo="Exemplo de Card">
+            <Card titulo="Exemplo de Card" color="#588C73">
                 <Aleatorio min={1} max={18} />
             </Card>
         </div>
