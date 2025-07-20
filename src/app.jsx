@@ -1,4 +1,4 @@
-import './App.css';
+import './app.css';
 import PrimeiroSemJSX, { SegundoComJSX, TerceiroComJSX } from './components/basicos/Primeiro';
 import ComParametro from './components/basicos/ComParametro';
 import { FragmentoComplexo, FragmentoSimples } from './components/basicos/Fragmento';
@@ -47,5 +47,4 @@ export default (_) =>
                 <Aleatorio min={1} max={18} />
             </Card>
         </div>
-    </div>
-
+    </div>;
