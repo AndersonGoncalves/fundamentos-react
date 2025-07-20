@@ -4,6 +4,7 @@ import ComParametro from './components/basicos/ComParametro';
 import { FragmentoComplexo, FragmentoSimples } from './components/basicos/Fragmento';
 import Aleatorio from './components/basicos/Aleatorio';
 import Card from './components/layout/Card';
+import Familia from './components/basicos/Famila';
 
 export default (_) =>
     <div className="App">
@@ -45,6 +46,10 @@ export default (_) =>
 
             <Card titulo="Exemplo de Card" color="#588C73">
                 <Aleatorio min={1} max={18} />
+            </Card>
+
+            <Card titulo="Card com filhos" color="#080C6F">
+                <Familia sobrenome="Gonçalves" />
             </Card>
         </div>
     </div>;
